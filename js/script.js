@@ -58,6 +58,7 @@ contactForm.addEventListener('submit', (e) => {
         alert('Please fill in all fields.');
     }
 });
+
 // Toggle Dark Mode
 const themeToggleBtn = document.getElementById('themeToggle');
 
@@ -65,6 +66,7 @@ themeToggleBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     themeToggleBtn.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
 });
+
 // Loading Animation
 window.addEventListener('load', () => {
     const loader = document.querySelector('.loader');
@@ -111,6 +113,7 @@ function typeWriter() {
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(typeWriter, 1000);
 });
+
 // Back to Top Button
 const backToTopButton = document.getElementById('backToTop');
 

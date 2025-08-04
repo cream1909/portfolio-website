@@ -494,6 +494,7 @@ body {
         flex-direction: column;
     }
 }
+
 /* ปุ่ม Dark Mode */
 .theme-btn {
     margin-left: 15px;
@@ -543,6 +544,7 @@ body.dark .contact-form {
 body.dark .footer {
     background: #111;
 }
+
 /* Loading Animation */
 .loader {
     position: absolute;
