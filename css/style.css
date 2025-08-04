@@ -592,6 +592,7 @@ body.dark .footer {
     0%, 50% { opacity: 1; }
     51%, 100% { opacity: 0; }
 }
+
 /* Back to Top Button */
 .back-to-top {
     position: fixed;

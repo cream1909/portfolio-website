@@ -77,6 +77,7 @@ window.addEventListener('load', () => {
         }, 500);
     }, 1000);
 });
+
 // Typing Animation
 const typingText = document.getElementById('typing-text');
 const textArray = ['Full Stack Developer', 'React Specialist', 'Node.js Expert', 'UI/UX Enthusiast'];
