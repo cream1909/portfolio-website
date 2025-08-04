@@ -58,3 +58,10 @@ contactForm.addEventListener('submit', (e) => {
         alert('Please fill in all fields.');
     }
 });
+// Toggle Dark Mode
+const themeToggleBtn = document.getElementById('themeToggle');
+
+themeToggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    themeToggleBtn.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+});

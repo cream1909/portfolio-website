@@ -57,6 +57,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
+    color: #000 !important;
 }
 
 .nav-link:hover {
@@ -83,7 +84,7 @@ body {
     display: flex;
     align-items: center;
     padding: 100px 20px 50px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #e29cfe 25%, #3d007a 75%);
     color: white;
 }
 
@@ -156,8 +157,8 @@ body {
 }
 
 .hero-image img {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid rgba(255, 255, 255, 0.2);
@@ -207,7 +208,7 @@ body {
 }
 
 .about-image img {
-    width: 100%;
+    width: 75%;
     border-radius: 10px;
 }
 
@@ -492,4 +493,53 @@ body {
     .project-links {
         flex-direction: column;
     }
+}
+/* ปุ่ม Dark Mode */
+.theme-btn {
+    margin-left: 15px;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.theme-btn:hover {
+    color: #3498db;
+}
+
+/* Dark Mode */
+body.dark {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+}
+
+body.dark .navbar {
+    background: rgba(20, 20, 20, 0.95);
+}
+
+body.dark .nav-link {
+    color: #f1f1f1;
+}
+
+body.dark .nav-link:hover {
+    color: #3498db;
+}
+
+body.dark .section-title {
+    color: #f1f1f1;
+}
+
+body.dark .about,
+body.dark .projects,
+body.dark .contact,
+body.dark .skills,
+body.dark .contact-form {
+    background-color: #222;
+}
+
+body.dark .footer {
+    background: #111;
 }
