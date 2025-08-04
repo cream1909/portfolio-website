@@ -2,6 +2,7 @@
 
 เว็บไซต์ Portfolio ส่วนตัวที่สร้างขึ้นเพื่อแสดงผลงาน ความสามารถ และข้อมูลติดต่อ
 - **ตัวอย่างหน้าเว็บไซต์** [คลิกที่นี่](https://cool-sable-fa2c55.netlify.app/)
+- **เอกสาร** [คลิกที่นี่](https://docs.google.com/document/d/1itT0P-cD3fEnX7aM0kA6sUIjn1l6Yg02BEk4O3FSU6U/edit?usp=sharing)
 ## ฟีเจอร์หลัก
 - **Responsive Design**: รองรับการใช้งานทุกอุปกรณ์ (มือถือ/แท็บเล็ต/เดสก์ท็อป)
 - **Smooth Scrolling**: เลื่อนหน้าจอแบบนุ่มนวล
