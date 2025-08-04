@@ -65,3 +65,13 @@ themeToggleBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     themeToggleBtn.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
 });
+// Loading Animation
+window.addEventListener('load', () => {
+    const loader = document.querySelector('.loader');
+    setTimeout(() => {
+        loader.classList.add('fade-out');
+        setTimeout(() => {
+            loader.style.display = 'none';
+        }, 500);
+    }, 1000);
+});
