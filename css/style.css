@@ -40,9 +40,9 @@ body {
 }
 
 .nav-logo a {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #2c3e50;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -391,7 +391,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #2c3e50;
+    background: #4f0156;
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -542,7 +542,7 @@ body.dark .contact-form {
 }
 
 body.dark .footer {
-    background: #111;
+    background: #4f0156;
 }
 
 /* Loading Animation */
@@ -568,7 +568,7 @@ body.dark .footer {
     width: 50px;
     height: 50px;
     border: 5px solid #f3f3f3;
-    border-top: 5px solid #3498db;
+    border-top: 5px solid #880294;
     border-radius: 50%;
     animation: spin 1s linear infinite;
     margin: 0 auto 1rem;
@@ -583,6 +583,7 @@ body.dark .footer {
     opacity: 0;
     pointer-events: none;
 }
+
 /* Typing Animation */
 .cursor {
     animation: blink 1s infinite;
@@ -597,15 +598,15 @@ body.dark .footer {
 .back-to-top {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 10px;
     width: 50px;
     height: 50px;
-    background: #3498db;
+    background: #880294;
     color: white;
     border: none;
-    border-radius: 50%;
+    border-radius: 40%;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1rem;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
@@ -618,6 +619,6 @@ body.dark .footer {
 }
 
 .back-to-top:hover {
-    background: #2980b9;
+    background: #86049a;
     transform: translateY(-2px);
 }
